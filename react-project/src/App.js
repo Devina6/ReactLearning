@@ -15,15 +15,16 @@ import StyleSheetsComponents from './components/stylesheets'
 import InLineComponents from './components/inLine'
 import './appStyles.css'
 import AppModuleStyles from './appStyles.module.css'
-
+import Form from './components/form'
 function App() {
   return (
     <div className="App">
-      <StyleSheetsComponents primary={true}/>
+      <Form />
+      {/*<StyleSheetsComponents primary={true}/>
       <InLineComponents />
       <h1 className='error'>Error</h1>
       <h1 className={AppModuleStyles.success}>Success</h1>
-      {/*<NameListComponent />
+      <NameListComponent />
       <UserGreetingComponent />
       < ParentComponent />
       <EventBind />
