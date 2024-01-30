@@ -19,7 +19,7 @@ function nameList() {
             age:99
         }
     ]
-    const personList = persons.map(person => <Person person = {person}/>)
+    const personList = persons.map(person => <Person key = {person.id} person = {person}/>) // key prop must be a unique value
     return <div>{personList}</div>
 }
 
