@@ -16,6 +16,17 @@ class lifyCycleB extends Component {
     componentDidMount(){
      console.log('lifyCycleB ComponentDidMount')   
     }
+    shouldComponentUpdate(){
+        console.log('lifeCycleB shouldcomponentUpdate')
+        return true
+      }
+      getSnapshotBeforeUpdate(prevProps, prevState){
+        console.log('lifeCycleB getSnapshotBeforeUpdate')
+        return null
+      }
+      componentDidUpdate(){
+        console.log('lifeCycleB componentDidUpdate')
+      }
   render() {
     console.log('lifeCyleB render')
     return (
