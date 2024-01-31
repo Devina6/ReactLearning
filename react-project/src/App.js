@@ -16,11 +16,14 @@ import InLineComponents from './components/inLine'
 import './appStyles.css'
 import AppModuleStyles from './appStyles.module.css'
 import Form from './components/form'
+import LifeCycleA from './components/lifeCycleA'
+
 function App() {
   return (
     <div className="App">
-      <Form />
-      {/*<StyleSheetsComponents primary={true}/>
+      <LifeCycleA />
+      {/*<Form />
+      <StyleSheetsComponents primary={true}/>
       <InLineComponents />
       <h1 className='error'>Error</h1>
       <h1 className={AppModuleStyles.success}>Success</h1>
