@@ -19,12 +19,14 @@ import LifeCycleA from './components/lifeCycleA'
 import ClassCounter from './components/classCounter'
 import HookCounter from './components/hookCounter'
 import HookCounterTwo from './components/HookCounterTwo';
+import HookCounterThree from './components/HookCounterThree';
 
 function App() {
   return (
     <div className="App">
-      <HookCounterTwo />
-      {/*<ClassCounter />
+      <HookCounterThree />
+      {/*<HookCounterTwo />
+      <ClassCounter />
       <HookCounter />
       <LifeCycleA />
       <Form />
