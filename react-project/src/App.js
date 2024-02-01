@@ -18,13 +18,15 @@ import Form from './components/form'
 import LifeCycleA from './components/lifeCycleA'
 import ClassCounter from './components/classCounter'
 import HookCounter from './components/hookCounter'
+import HookCounterTwo from './components/HookCounterTwo';
 
 function App() {
   return (
     <div className="App">
-      <ClassCounter />
+      <HookCounterTwo />
+      {/*<ClassCounter />
       <HookCounter />
-      {/*<LifeCycleA />
+      <LifeCycleA />
       <Form />
       <StyleSheetsComponents primary={true}/>
       <InLineComponents />

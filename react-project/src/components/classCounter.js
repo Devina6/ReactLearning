@@ -9,9 +9,13 @@ class classCounter extends Component {
       }
     }
     incrementCount = () => {
-        this.setState({
+        this.setState(prevState => {
+            return{count:prevState.count+1}
+        })// this is the correct way
+
+        /*this.setState({
             count:this.state.count+1
-        })
+        })*/
     }
   render() {
     return (
