@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Greet from './components/greet'
 import Welcome from './components/welcome'
@@ -17,12 +16,16 @@ import './appStyles.css'
 import AppModuleStyles from './appStyles.module.css'
 import Form from './components/form'
 import LifeCycleA from './components/lifeCycleA'
+import ClassCounter from './components/classCounter'
+import HookCounter from './components/hookCounter'
 
 function App() {
   return (
     <div className="App">
-      <LifeCycleA />
-      {/*<Form />
+      <ClassCounter />
+      <HookCounter />
+      {/*<LifeCycleA />
+      <Form />
       <StyleSheetsComponents primary={true}/>
       <InLineComponents />
       <h1 className='error'>Error</h1>
